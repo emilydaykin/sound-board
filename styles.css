@@ -49,10 +49,6 @@ body {
   transform: scale(0.98);
 }
 
-.play-all {
-  margin-top: 30px;
-}
-
 .live-lyrics {
   display: flex;
   flex-direction: column;
@@ -61,7 +57,7 @@ body {
   max-width: 50vw;
 }
 
-.reset {
+.button {
   padding: 10px 20px;
   margin-top: 30px;
   background-color: #fff;
@@ -71,14 +67,22 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.reset:hover {
+.play-all {
+  margin-top: 30px;
+  border: 2px solid #29638a;
+  background-color: #f7f7f7;
+  color: #29638a;
+}
+
+.button:hover {
   cursor: pointer;
   background-color: #29638a;
+  border: 2px solid #29638a;
   color: #e3e3e3;
   border: none;
 }
 
-.reset:active {
+.button:active {
   transform: scale(0.97);
 }
 
